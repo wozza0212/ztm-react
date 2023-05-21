@@ -1,3 +1,6 @@
+import ExpenseItem from './components/ExpenseItem';
+
+
 // function App() {
 //   return (
 //     <div>
@@ -10,6 +13,7 @@ const App = () => {
   return (
     <div>
       <h2>Lets get it started it here!</h2>
+      <ExpenseItem></ExpenseItem>
     </div>
 
     )
